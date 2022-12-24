@@ -1,4 +1,4 @@
-# it takes current system time from {datetime} and returns the time to finish a particular pdf (later generalizable to all kinds) file the given the speed to read a page
+# it takes current system time from {datetime} and returns the time to finish a particular pdf (later generalizable to all kinds) file, given the speed to read a page
 
 import os
 import datetime
