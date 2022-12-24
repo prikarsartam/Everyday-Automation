@@ -1,3 +1,5 @@
+# it takes current system time from {datetime} and returns the time to finish a particular pdf (later generalizable to all kinds) file the given the speed to read a page
+
 import os
 import datetime
 from PyPDF2 import PdfReader

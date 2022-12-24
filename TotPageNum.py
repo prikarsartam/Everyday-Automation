@@ -1,9 +1,9 @@
 
 # this is simply my laziness manifesting in everything that I do - huh! 
+# give this a directory full of PDF files (Which I will later generalize for all kinds of files) and it will tell the total number of pages in all those files
 
 import os
 from PyPDF2 import PdfReader
-
 def get_total_pdf_pages(directory):
   total_pages = 0
 
@@ -22,13 +22,8 @@ def get_total_pdf_pages(directory):
 
   # Return the total number of pages
   return total_pages
-
-
-
 current_directory = os.getcwd()
 total_pages = int(get_total_pdf_pages(current_directory))
-
 per_min = round(float(total_pages/(900)), 2)
-
 print("\nTotal Number of pages you need to suck - "+str(total_pages)+"\n")
 print("If I want to finish it by tonight, I need to read "+str(per_min)+" pages per minute, which is "+str(round((1/per_min),2))+" minutes per page\n")
