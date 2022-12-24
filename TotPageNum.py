@@ -1,6 +1,6 @@
 
 # this is simply my laziness manifesting in everything that I do - huh! 
-# give this a directory full of PDF files (Which I will later generalize for all kinds of files) and it will tell the total number of pages in all those files
+# give this a directory_address full of PDF files (Which I will later generalize for all kinds of files) and it will tell the total number of pages in all those files
 
 import os
 from PyPDF2 import PdfReader
